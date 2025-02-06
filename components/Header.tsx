@@ -108,19 +108,19 @@ export default function Header() {
           </div>
 
           <nav className="nav-menu">
-            <Link href="/shop" className="nav-link">
+            <Link href="/" className="nav-link">
               SHOP
             </Link>
-            <Link href="/skills" className="nav-link">
+            <Link href="/" className="nav-link">
               SKILLS
             </Link>
-            <Link href="/stories" className="nav-link">
+            <Link href="/" className="nav-link">
               STORIES
             </Link>
-            <Link href="/about" className="nav-link">
+            <Link href="/" className="nav-link">
               ABOUT
             </Link>
-            <Link href="/contact" className="nav-link">
+            <Link href="/" className="nav-link">
               CONTACT US
             </Link>
           </nav>

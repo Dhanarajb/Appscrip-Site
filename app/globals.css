@@ -47,6 +47,11 @@ body {
   height: 70px;
 }
 
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
 .logo-container {
   display: flex;
   align-items: center;
@@ -215,7 +220,7 @@ body {
   }
 
   .product-grid {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
   }
 }
 
@@ -305,4 +310,119 @@ body {
   100% {
     opacity: 1;
   }
+}
+
+/* Footer General Styles */
+footer {
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+  text-align: left;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-section ul li a:hover {
+  color: gray;
+}
+
+/* Newsletter */
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+}
+
+.newsletter-form button {
+  padding: 10px 15px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.newsletter-form button:hover {
+  background-color: gray;
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: gray;
+}
+
+/* Payment Methods */
+.payment-methods {
+  display: flex;
+  gap: 10px;
+}
+
+.payment-method {
+  padding: 5px 10px;
+  background: white;
+  color: black;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid gray;
+  font-size: 14px;
+  color: gray;
 }
